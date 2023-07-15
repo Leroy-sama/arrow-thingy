@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    flex-direction: column;
+    gap: 40px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h2 {
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+#arrow-icon {
+    position: relative;
+    top: 0;
+    animation: moveUpDown 0.5s infinite alternate;
+}
+
+@keyframes moveUpDown {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 50px;
+    }
+}
